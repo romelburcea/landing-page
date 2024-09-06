@@ -1,0 +1,157 @@
+body{
+    height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+ flex-direction: column;
+    
+}
+
+
+.header, 
+.footer{
+    background-color: #1F2937;
+    color: whitesmoke;
+}
+
+#bun{
+    background-color: #1F2937;
+    mix-blend-mode: multiply;
+    
+}
+
+.first-content{
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #1F2937;
+    color: whitesmoke;
+}
+
+.upper{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+}
+
+#one{
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+}
+
+.middle-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+.books{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.quote{
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 300px;
+    flex-direction: column;
+}
+
+
+
+.call{
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.action{
+    background-color: #3882F6;
+    display: flex;
+    height: 200px;
+    width: 700px;
+    
+}
+
+.to{
+    display: flex;
+    flex-direction: column;
+}
+
+#quo{
+    height: 200px;
+    width: 500px;
+    font-size: 18px;
+    font-weight: light-italic;
+    color: #1F2937;
+}
+
+#jd{
+    font-weight: bold;
+    padding-left: 300px;
+}
+
+
+#library{
+    width: 600px;
+    height: 300px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    ;
+    opacity: 70%;
+}
+
+#miller,
+#crime,
+#nebuni,
+#heart{
+    width: 110px;
+    height: 150px;
+    border-radius: 10%;
+    border-color: #1F2937;
+    border: solid;
+}
+
+
+.header{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 520px;
+}
+
+.right-links{
+    display: flex;
+    padding-right: 50px;
+}
+
+ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    gap: 16px;
+    padding-right: 330px;
+}
