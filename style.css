@@ -2,7 +2,7 @@ body{
     height: 100vh;
   margin: 0;
   overflow: hidden;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   display: flex;
  flex-direction: column;
     
@@ -89,15 +89,34 @@ body{
 .action{
     background-color: #3882F6;
     display: flex;
-    height: 200px;
-    width: 700px;
+    height: 100px;
+    width: 800px;
+    border-collapse: separate;
+    justify-content: space-evenly;
     
 }
 
 .to{
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
+    font-size: smaller;
+    color: whitesmoke;
+    justify-content: center;
 }
+
+.right-call{
+    display: flex;
+}
+
+#hthree,
+#lastblabla{
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove any padding if present */
+}
+   
+
+
 
 #quo{
     height: 200px;
@@ -134,6 +153,14 @@ body{
 }
 
 
+#last-button{
+    width: 120px;
+    height: 50px;
+    font-weight: bold;
+    margin-top: 23px;
+}
+
+
 .header{
     height: 100px;
     display: flex;
@@ -154,4 +181,24 @@ ul{
     list-style-type: none;
     gap: 16px;
     padding-right: 330px;
+}
+
+
+h3{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+
+button{
+    border-radius: 10%;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+}
+
+
+.footer{
+    display: flex;
+    justify-content: center;
 }
